@@ -1,0 +1,57 @@
+.accordion__list, .accordion__item{
+	display: flex;
+}
+
+.accordion__title_bg{
+	writing-mode: vertical-lr;
+    display: flex;
+    transform: rotate(180deg);
+    font-size: 40px;
+    font-weight: bold;
+    color: #f9b43b;
+}
+.accordion__title_color_bg{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(46, 48, 50, 0.6);
+}
+.accordion__title_bg_1{
+	background: url(../../images/img/accordion1.png) center center no-repeat;
+	background-size: cover;
+}
+.accordion__title_bg_2{
+	background: url(../../images/img/accordion2.png) center center no-repeat;
+	background-size: cover;
+
+}
+.accordion__title_bg_3{
+	background: url(../../images/img/accordion3.png) center center no-repeat;
+	background-size: cover;
+}
+.menu_right__block, .menu__accordion, .accordion__list{
+	height: 100%;
+}
+.menu_right__block{
+	position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
+}
+.accordion__text{
+	background-color: rgba(46, 48, 50, 0.6);
+	color: #fff;
+	padding: 55px 30px;
+	display: none;
+	opacity: 0;
+	transition: 0.7s;
+}
+.accordion__text_open{
+	display: block;
+}
+.opacity_acc{
+	opacity: 1;
+}
+.accordion__title{
+	padding: 45px 15px;
+	font-family: "Gagalin";
+}

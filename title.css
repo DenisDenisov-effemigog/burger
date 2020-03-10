@@ -1,0 +1,17 @@
+.title{
+	text-transform: uppercase;
+	font-size: 72px;
+	font-family: "Gagalin";
+}
+.first_section__title{
+	color: yellow;
+}
+.yellow__title{
+	color: #f9b43b;
+}
+.white__title{
+	color: #fff;
+}
+.delivery__title {
+	text-align: center;
+}

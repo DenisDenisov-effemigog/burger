@@ -1,0 +1,43 @@
+.footer{
+	background-color: #141414;
+}
+.footer__desc{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	padding: 10px 0;
+}
+.address{
+	color: #fff;
+}
+.phone__link{
+	color: #b54223;
+	font-weight: bold;
+}
+.phone{
+	padding-top: 15px;
+}
+.social__list{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.social__pic{
+	width: 25px;
+	height: 25px;
+	fill: #808080;
+}
+.social__pic:hover{
+	fill: #ffffff;
+	transition: .5s;
+}
+.social__item{
+	padding-left: 15px;
+}

@@ -1,0 +1,26 @@
+@import url("style/normalize.css");
+@import url("style/base.css");
+@import url("style/blocks/header.css");
+@import url("style/fonts.css");
+@import url("style/blocks/first-section.css");
+@import url("style/blocks/left-block.css");
+@import url("style/blocks/aside.css");
+@import url("style/blocks/title.css");
+@import url("style/blocks/second-section.css");
+@import url("style/blocks/we.css");
+@import url("style/blocks/third-section.css");
+@import url("style/blocks/burger.css");
+@import url("style/blocks/composition.css");
+@import url("style/blocks/fourth-section.css");
+@import url("style/blocks/team.css");
+@import url("style/blocks/fifth-section.css");
+@import url("style/blocks/accordion.css");
+@import url("style/blocks/reviews.css");
+@import url("style/blocks/eighth-section.css");
+@import url("style/blocks/ninth-section.css");
+@import url("style/blocks/form.css");
+@import url("style/blocks/buttons.css");
+@import url("style/blocks/tenth-section.css");
+@import url("style/blocks/footer.css");
+@import url("style/blocks/humburger.css");
+

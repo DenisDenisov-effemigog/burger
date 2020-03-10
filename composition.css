@@ -1,0 +1,47 @@
+.composition__icon{
+	width: 90px;
+	height: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f08c33;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+.composition__list{
+	width: 270px;
+	height: 330px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+.composition__close_list{
+	opacity: 0;
+	transition: .5s;
+}
+.composition__open_list{
+	opacity: 1;
+	transition: .5s;
+}
+.composition__item{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 10px;
+}
+.burger__composition{
+	position: relative;
+}
+.composition__item_icon{
+	width: 51px;
+	height: 40px;
+}
+@media screen and (max-width: 768px) {
+	.composition__list{
+		left: 100%;
+	}
+}

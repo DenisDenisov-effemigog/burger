@@ -1,0 +1,48 @@
+
+.first_section_burger__pic{
+	padding: 34px 0 0 40px;
+	position: relative;
+}
+.burger__drops_pic{
+	position: absolute;
+	top: 0;
+}
+.first_section__page{
+	padding-top: 50px;
+}
+.first_section__title{
+	color: yellow;
+	font-size: 50px;
+}
+.first_section__desc{
+	padding-left: 45px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.first_section__text{
+	color: #fff;
+	font-size: 50px;
+	font-family: "Lifehack";
+
+}
+.first_section__burger{
+	display: flex;
+}
+		
+@media screen and (max-width: 768px){
+	.first_section__burger{
+		display: block;
+		text-align: center;
+	}
+	.first_section_burger__pic{
+		padding: 0;
+	}
+	.burger__drops_pic{
+		left: 10%;
+	}
+}

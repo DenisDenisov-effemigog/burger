@@ -1,0 +1,95 @@
+.hamburger__list{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    position: fixed;
+	top: 0;
+	right: 0;
+	background-color: rgba(153, 153, 153, 0.8);
+	z-index: 1;
+	font-weight: bold;
+	font-size: 24px;
+	transform: translateY(100%);
+	opacity: 0;
+	transition: 0.6s;
+}
+.open{
+	transform: translateY(0);
+	opacity: 1;
+	transition: 0.6s;
+}
+.hamburger__link{
+	text-transform: uppercase;
+	font-family: "Ubuntu-B";
+	color: rgba(255, 255, 255, .5);
+	transition: 0.6s;
+	
+}
+.hamburger__item{
+    height: 100px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+.hamburger__item::before{
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, .5);
+	bottom: 38%;
+	right: 48%;
+}
+.hamburger__item:hover .hamburger__link{
+	color: rgba(255, 255, 255, 1);
+}
+.hamburger__item:last-child::before, .hamburger__item:first-child::before{
+	content: none;
+}
+.hamburger__item:first-child{
+	width: 100%;
+	display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+.humburger__btn{
+	position: relative;
+	width: 25px;
+	height: 5px;
+	margin-left: 25px;
+	border-bottom: 4px solid #fff;
+	cursor: pointer;
+	display: none;
+}
+@media screen and (max-width: 800px) {
+	.humburger__btn{
+		display: block;
+	}
+}
+.humburger__btn:before{
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 5px;
+	border-bottom: 4px solid #fff;
+	top: 10px;
+	cursor: pointer;
+}
+.humburger__btn:after{
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 5px;
+	border-bottom: 4px solid #fff;
+	bottom: 6px;
+	cursor: pointer;
+}
+

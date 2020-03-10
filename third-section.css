@@ -1,0 +1,8 @@
+.third__section{
+	background: linear-gradient(#f9b43b, #eb8c38);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}

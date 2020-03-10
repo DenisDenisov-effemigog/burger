@@ -1,0 +1,25 @@
+.btn{
+	width: 100px;
+	height: 35px;
+	background-color: #e45028;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	outline: none;
+	font-family: "Ubuntu-M";
+	transition: .5s;
+}
+.btn:hover{
+	background-color: rgba(238, 80, 40, .5);
+}
+.cancel__button{
+	background-color: transparent;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
